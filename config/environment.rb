@@ -1,7 +1,10 @@
 require 'bundler'
 Bundler.require
 
-module Concerns
-end
+require_all './lib'
 
-require_all 'lib'
+# require './lib/concerns/findable'
+# require './lib/module/artist'
+# require './lib/module/genre'
+# require './lib/module/song'
+
